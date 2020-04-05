@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+}
+header{
+	height: 65px;
+	background-color: #99FF00;
+
+}
+.header-left{
+	float: left;
+}
+.header-right{
+	float: right;
+	margin-right: 20px;
+
+}
+h3{
+	display: inline-block;
+}
+
+.body{
+	top: 65px;
+}
+h1{
+	font-size: 20px;
+}
+.sitename{
+	color:blue;
+}
+
+.acpw{
+	display:inline-block;
+	/*display:inline;*/
+	margin:5px;
+	border: 3px solid;
+	/*padding: 5px;*/
+	padding-left: 10px;
+	width: 300px;
+	height: 160px;
+}
+
+.acpw:nth-child(odd){
+	background: #99FF00;
+}
+.acpw:nth-child(even){
+	background: #99FF00;
+}
+table, td, th{
+	border: solid 2px;
+	border-collapse: collapse;
+}
+table{
+	margin-bottom: 5px;
+}
+
+td{
+	font-family: "Ricty Diminished";
+}
